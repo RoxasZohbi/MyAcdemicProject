@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14205C54-CA1D-4CFA-B6EF-CE412A1E7CA5}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_Project_SevenWonders</RootNamespace>
+    <AssemblyName>E-Project_SevenWonders</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>E-Project_SevenWonders_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <SDKReference Include="Bing.Maps.Xaml, Version=1.313.0825.0">
+      <Name>Bing Maps for C#, C++, or Visual Basic</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmazonRainforest.xaml.cs">
+      <DependentUpon>AmazonRainforest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Aurora.xaml.cs">
+      <DependentUpon>Aurora.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beirut.xaml.cs">
+      <DependentUpon>Beirut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BelizeBarrierReef.xaml.cs">
+      <DependentUpon>BelizeBarrierReef.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChichenItza.xaml.cs">
+      <DependentUpon>ChichenItza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CitiesWonder.xaml.cs">
+      <DependentUpon>CitiesWonder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Colosseum.xaml.cs">
+      <DependentUpon>Colosseum.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Doha.xaml.cs">
+      <DependentUpon>Doha.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Durban.xaml.cs">
+      <DependentUpon>Durban.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GalápagosIslands.xaml.cs">
+      <DependentUpon>GalápagosIslands.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GrandCanyon.xaml.cs">
+      <DependentUpon>GrandCanyon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GreatBarrierReef.xaml.cs">
+      <DependentUpon>GreatBarrierReef.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GreatBarrierReef2.xaml.cs">
+      <DependentUpon>GreatBarrierReef2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HaLong.xaml.cs">
+      <DependentUpon>HaLong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Harbor.xaml.cs">
+      <DependentUpon>Harbor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Havana.xaml.cs">
+      <DependentUpon>Havana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HydrothermalVent.xaml.cs">
+      <DependentUpon>HydrothermalVent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IguazuFalls.xaml.cs">
+      <DependentUpon>IguazuFalls.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JejuIsland.xaml.cs">
+      <DependentUpon>JejuIsland.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Komodo.xaml.cs">
+      <DependentUpon>Komodo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KualaLumpur.xaml.cs">
+      <DependentUpon>KualaLumpur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LakeBaikal.xaml.cs">
+      <DependentUpon>LakeBaikal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LaPaz.xaml.cs">
+      <DependentUpon>LaPaz.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MachuPicchu.xaml.cs">
+      <DependentUpon>MachuPicchu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MountEve.xaml.cs">
+      <DependentUpon>MountEve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NationalPark.xaml.cs">
+      <DependentUpon>NationalPark.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NaturalWonder.xaml.cs">
+      <DependentUpon>NaturalWonder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NatureWonder.xaml.cs">
+      <DependentUpon>NatureWonder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewWonder.xaml.cs">
+      <DependentUpon>NewWonder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Palau.xaml.cs">
+      <DependentUpon>Palau.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Paricutin.xaml.cs">
+      <DependentUpon>Paricutin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Petra.xaml.cs">
+      <DependentUpon>Petra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Redeemer.xaml.cs">
+      <DependentUpon>Redeemer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RedSea.xaml.cs">
+      <DependentUpon>RedSea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TableMountain.xaml.cs">
+      <DependentUpon>TableMountain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TajMahal.xaml.cs">
+      <DependentUpon>TajMahal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VictoriaFall.xaml.cs">
+      <DependentUpon>VictoriaFall.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vigan.xaml.cs">
+      <DependentUpon>Vigan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WallChina.xaml.cs">
+      <DependentUpon>WallChina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaterWonder.xaml.cs">
+      <DependentUpon>WaterWonder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WonderMap.xaml.cs">
+      <DependentUpon>WonderMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Wonders.xaml.cs">
+      <DependentUpon>Wonders.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\arrow.png" />
+    <Content Include="Assets\Back1.png" />
+    <Content Include="Assets\Back2.png" />
+    <Content Include="Assets\Back3.png" />
+    <Content Include="Assets\Banners\HomeBanner1-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner1.jpg" />
+    <Content Include="Assets\Banners\HomeBanner2-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner3-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner3.jpg" />
+    <Content Include="Assets\Banners\HomeBanner4-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner4.jpg" />
+    <Content Include="Assets\Banners\HomeBanner5-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner5.jpg" />
+    <Content Include="Assets\Banners\HomeBanner6-2.jpg" />
+    <Content Include="Assets\Banners\HomeBanner6.jpg" />
+    <Content Include="Assets\Bg\CitiesBg.jpg" />
+    <Content Include="Assets\Bg\industrial.jpg" />
+    <Content Include="Assets\Bg\NaturalBg1.jpg" />
+    <Content Include="Assets\Bg\NatureBg.jpg" />
+    <Content Include="Assets\Bg\NewBg.jpg" />
+    <Content Include="Assets\Bg\UnderBg.jpg" />
+    <Content Include="Assets\Board.png" />
+    <Content Include="Assets\Board1.png" />
+    <Content Include="Assets\Board2.png" />
+    <Content Include="Assets\Cities\1%282%29.jpg" />
+    <Content Include="Assets\Cities\1.jpg" />
+    <Content Include="Assets\Cities\2%282%29.jpg" />
+    <Content Include="Assets\Cities\2.jpg" />
+    <Content Include="Assets\Cities\3%282%29.jpg" />
+    <Content Include="Assets\Cities\3.jpg" />
+    <Content Include="Assets\Cities\4%282%29.jpg" />
+    <Content Include="Assets\Cities\4.jpg" />
+    <Content Include="Assets\Cities\5%282%29.jpg" />
+    <Content Include="Assets\Cities\5.jpg" />
+    <Content Include="Assets\Cities\6%282%29.jpg" />
+    <Content Include="Assets\Cities\6.jpg" />
+    <Content Include="Assets\Cities\7%282%29.jpg" />
+    <Content Include="Assets\Cities\7.jpg" />
+    <Content Include="Assets\Cities\Banner.png" />
+    <Content Include="Assets\Cities\Banner2.png" />
+    <Content Include="Assets\Cities\Banner3.png" />
+    <Content Include="Assets\Cities\Arrow.png" />
+    <Content Include="Assets\Font\JANCIENI.TTF" />
+    <Content Include="Assets\Gallery\Cities\1-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\1-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\1-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\1-4.jpg" />
+    <Content Include="Assets\Gallery\Cities\2-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\2-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\2-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\2-4.jpg" />
+    <Content Include="Assets\Gallery\Cities\3-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\3-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\3-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\3-4.jpg" />
+    <Content Include="Assets\Gallery\Cities\4-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\4-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\4-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\4-4.jpg" />
+    <Content Include="Assets\Gallery\Cities\5-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\5-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\5-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\5-4.jpg" />
+    <Content Include="Assets\Gallery\Cities\6-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\6-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\6-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\6-4.png" />
+    <Content Include="Assets\Gallery\Cities\7-1.jpg" />
+    <Content Include="Assets\Gallery\Cities\7-2.jpg" />
+    <Content Include="Assets\Gallery\Cities\7-3.jpg" />
+    <Content Include="Assets\Gallery\Cities\7-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\1-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\1-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\1-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\1-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\2-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\2-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\2-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\2-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\3-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\3-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\3-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\3-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\4-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\4-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\4-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\4-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\5-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\5-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\5-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\6-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\6-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\6-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\6-4.jpg" />
+    <Content Include="Assets\Gallery\Natural\7-1.jpg" />
+    <Content Include="Assets\Gallery\Natural\7-2.jpg" />
+    <Content Include="Assets\Gallery\Natural\7-3.jpg" />
+    <Content Include="Assets\Gallery\Natural\7-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\1-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\1-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\1-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\1-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\2-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\2-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\2-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\2-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\3-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\3-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\3-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\3-4.png" />
+    <Content Include="Assets\Gallery\Nature\4-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\4-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\4-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\4-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\5-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\5-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\5-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\5-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\6-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\6-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\6-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\6-4.jpg" />
+    <Content Include="Assets\Gallery\Nature\7-1.jpg" />
+    <Content Include="Assets\Gallery\Nature\7-2.jpg" />
+    <Content Include="Assets\Gallery\Nature\7-3.jpg" />
+    <Content Include="Assets\Gallery\Nature\7-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\1-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\1-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\1-3.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\1-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\2-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\2-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\2-3.png" />
+    <Content Include="Assets\Gallery\NewWorld\2-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\3-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\3-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\3-3.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\3-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\4-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\4-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\4-3.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\4-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\5-1.png" />
+    <Content Include="Assets\Gallery\NewWorld\5-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\5-3.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\5-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\6-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\6-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\6-3.png" />
+    <Content Include="Assets\Gallery\NewWorld\6-4.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\7-1.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\7-2.jpg" />
+    <Content Include="Assets\Gallery\NewWorld\7-3.png" />
+    <Content Include="Assets\Gallery\NewWorld\7-4.jpg" />
+    <Content Include="Assets\Gallery\Underwater\1-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\1-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\1-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\1-4.jpg" />
+    <Content Include="Assets\Gallery\Underwater\2-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\2-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\2-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\2-4.jpg" />
+    <Content Include="Assets\Gallery\Underwater\3-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\3-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\3-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\4-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\4-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\4-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\4-4.jpg" />
+    <Content Include="Assets\Gallery\Underwater\5-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\5-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\5-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\5-4.jpg" />
+    <Content Include="Assets\Gallery\Underwater\6-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\6-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\6-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\7-1.jpg" />
+    <Content Include="Assets\Gallery\Underwater\7-2.jpg" />
+    <Content Include="Assets\Gallery\Underwater\7-3.jpg" />
+    <Content Include="Assets\Gallery\Underwater\7-4.jpg" />
+    <Content Include="Assets\Header.png" />
+    <Content Include="Assets\industrial\sub.png" />
+    <Content Include="Assets\MainBg2.jpg" />
+    <Content Include="Assets\NaturalFlip\Aurora.jpg" />
+    <Content Include="Assets\NaturalFlip\Aurora2.jpg" />
+    <Content Include="Assets\NaturalFlip\Grand.jpg" />
+    <Content Include="Assets\NaturalFlip\Grand2.jpg" />
+    <Content Include="Assets\NaturalFlip\Great.jpg" />
+    <Content Include="Assets\NaturalFlip\Great2.jpg" />
+    <Content Include="Assets\NaturalFlip\Harbor.jpg" />
+    <Content Include="Assets\NaturalFlip\Harbor2.jpg" />
+    <Content Include="Assets\NaturalFlip\Mount.jpg" />
+    <Content Include="Assets\NaturalFlip\mount2.jpg" />
+    <Content Include="Assets\NaturalFlip\Pari.jpg" />
+    <Content Include="Assets\NaturalFlip\Pari2.jpg" />
+    <Content Include="Assets\NaturalFlip\Victoria.jpg" />
+    <Content Include="Assets\NaturalFlip\Victoria2.jpg" />
+    <Content Include="Assets\NaturalMainBg.jpg" />
+    <Content Include="Assets\Nature\1%282%29.jpg" />
+    <Content Include="Assets\Nature\1.jpg" />
+    <Content Include="Assets\Nature\2%282%29.jpg" />
+    <Content Include="Assets\Nature\2.jpg" />
+    <Content Include="Assets\Nature\3%282%29.jpg" />
+    <Content Include="Assets\Nature\3.jpg" />
+    <Content Include="Assets\Nature\4%282%29.jpg" />
+    <Content Include="Assets\Nature\4.jpg" />
+    <Content Include="Assets\Nature\5%282%29.jpg" />
+    <Content Include="Assets\Nature\5.jpg" />
+    <Content Include="Assets\Nature\6%282%29.jpg" />
+    <Content Include="Assets\Nature\6.jpg" />
+    <Content Include="Assets\Nature\7%282%29.jpg" />
+    <Content Include="Assets\Nature\7.jpg" />
+    <Content Include="Assets\Nature\SubBg.png" />
+    <Content Include="Assets\New Wonders\Chichen Itza.jpg" />
+    <Content Include="Assets\NewWorld\1%282%29.jpg" />
+    <Content Include="Assets\NewWorld\1.jpg" />
+    <Content Include="Assets\NewWorld\2%282%29.jpg" />
+    <Content Include="Assets\NewWorld\2.jpg" />
+    <Content Include="Assets\NewWorld\3%282%29.jpg" />
+    <Content Include="Assets\NewWorld\3.jpg" />
+    <Content Include="Assets\NewWorld\4%282%29.jpg" />
+    <Content Include="Assets\NewWorld\4.jpg" />
+    <Content Include="Assets\NewWorld\5%282%29.jpg" />
+    <Content Include="Assets\NewWorld\5.jpg" />
+    <Content Include="Assets\NewWorld\6%282%29.jpg" />
+    <Content Include="Assets\NewWorld\6.jpg" />
+    <Content Include="Assets\NewWorld\7%282%29.jpg" />
+    <Content Include="Assets\NewWorld\7.jpg" />
+    <Content Include="Assets\NewWorld\M.png" />
+    <Content Include="Assets\NewWorld\para1.png" />
+    <Content Include="Assets\NewWorld\para2.png" />
+    <Content Include="Assets\NewWorld\para3.png" />
+    <Content Include="Assets\NewWorld\Sub.png" />
+    <Content Include="Assets\NoticeBoard.png" />
+    <Content Include="Assets\Small-logo.png" />
+    <Content Include="Assets\UnderWater\1%282%29.jpg" />
+    <Content Include="Assets\UnderWater\1.jpg" />
+    <Content Include="Assets\UnderWater\2%282%29.jpg" />
+    <Content Include="Assets\UnderWater\2.jpg" />
+    <Content Include="Assets\UnderWater\3%282%29.jpg" />
+    <Content Include="Assets\UnderWater\3.jpg" />
+    <Content Include="Assets\UnderWater\4%282%29.jpg" />
+    <Content Include="Assets\UnderWater\4.jpg" />
+    <Content Include="Assets\UnderWater\5%282%29.jpg" />
+    <Content Include="Assets\UnderWater\5.jpg" />
+    <Content Include="Assets\UnderWater\6%282%29.jpg" />
+    <Content Include="Assets\UnderWater\6.jpg" />
+    <Content Include="Assets\UnderWater\7%282%29.jpg" />
+    <Content Include="Assets\UnderWater\7.jpg" />
+    <Content Include="Assets\UnderWater\paper.png" />
+    <Content Include="Assets\Video\11.mp4" />
+    <Content Include="Assets\Video\12.mp4" />
+    <Content Include="Assets\Video\13.mp4" />
+    <Content Include="Assets\Video\14.mp4" />
+    <Content Include="Assets\Video\15.mp4" />
+    <Content Include="Assets\Video\16.mp4" />
+    <Content Include="Assets\Video\17.mp4" />
+    <Content Include="Assets\Video\21.mp4" />
+    <Content Include="Assets\Video\22.mp4" />
+    <Content Include="Assets\Video\23.mp4" />
+    <Content Include="Assets\Video\24.mp4" />
+    <Content Include="Assets\Video\25.mp4" />
+    <Content Include="Assets\Video\26.mp4" />
+    <Content Include="Assets\Video\27.mp4" />
+    <Content Include="Assets\Video\Wonders.mp4" />
+    <Content Include="Assets\Font\JANCIENT.TTF" />
+    <None Include="E-Project_SevenWonders_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreenRing.png" />
+    <Content Include="Assets\SplashScreenSlide.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AmazonRainforest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Aurora.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Beirut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BelizeBarrierReef.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChichenItza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CitiesWonder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Colosseum.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Doha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Durban.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GalápagosIslands.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GrandCanyon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GreatBarrierReef.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GreatBarrierReef2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HaLong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Harbor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Havana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HydrothermalVent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IguazuFalls.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JejuIsland.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Komodo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KualaLumpur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LakeBaikal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LaPaz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MachuPicchu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MountEve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NationalPark.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NaturalWonder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NatureWonder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewWonder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Palau.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Paricutin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Petra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Redeemer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RedSea.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TableMountain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TajMahal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VictoriaFall.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vigan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WallChina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WaterWonder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WonderMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Wonders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

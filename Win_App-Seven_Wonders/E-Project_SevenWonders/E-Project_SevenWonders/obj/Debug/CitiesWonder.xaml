@@ -1,0 +1,810 @@
+﻿<Page
+    x:Class="E_Project_SevenWonders.CitiesWonder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:E_Project_SevenWonders"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Storyboard x:Name="RingAnimation" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="45"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="90"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="135"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="180"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="225"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="270"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:7" Value="315"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:8" Value="360"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="HomeAnimation">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Text)" Storyboard.TargetName="HomeBtn">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="HOME"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="&lt;HOME&gt;"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="HOME"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.FontWeight)" Storyboard.TargetName="HomeBtn">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="WonderAnimation">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Text)" Storyboard.TargetName="WondersBtn">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="WONDERS"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="&lt;WONDERS&gt;"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="WONDERS"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.FontWeight)" Storyboard.TargetName="WondersBtn">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="MapsAnimation">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Text)" Storyboard.TargetName="MapsBtn">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="MAPS"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="&lt;MAPS&gt;"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="MAPS"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.FontWeight)" Storyboard.TargetName="MapsBtn">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="FeedbackAnimation">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Text)" Storyboard.TargetName="FeedbackBtn">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="FEEDBACK"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="&lt;FEEDBACK&gt;"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="FEEDBACK"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.FontWeight)" Storyboard.TargetName="FeedbackBtn">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Bold</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <FontWeight>Normal</FontWeight>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Style x:Key="SearchBoxStyle1" TargetType="SearchBox">
+            <Setter Property="Background" Value="{ThemeResource SearchBoxBackgroundThemeBrush}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource SearchBoxBorderThemeBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource SearchBoxBorderThemeThickness}"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontSize" Value="{ThemeResource SearchBoxContentThemeFontSize}"/>
+            <Setter Property="FontWeight" Value="{ThemeResource SearchBoxContentThemeFontWeight}"/>
+            <Setter Property="Foreground" Value="{ThemeResource SearchBoxForegroundThemeBrush}"/>
+            <Setter Property="Padding" Value="{ThemeResource SearchBoxThemePadding}"/>
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="Typography.StylisticSet20" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="SearchBox">
+                        <Grid x:Name="SearchBoxGrid">
+                            <Grid.Resources>
+                                <Style x:Key="SearchButtonStyle" TargetType="Button">
+                                    <Setter Property="IsTabStop" Value="False"/>
+                                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid Background="Transparent">
+                                                    <VisualStateManager.VisualStateGroups>
+                                                        <VisualStateGroup x:Name="CommonStates">
+                                                            <VisualState x:Name="Normal"/>
+                                                            <VisualState x:Name="PointerOver">
+                                                                <Storyboard>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchGlyph">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxButtonPointerOverForegroundThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchButtonBackground">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Goldenrod"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Pressed">
+                                                                <Storyboard>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchGlyph">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedTextThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchButtonBackground">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Goldenrod"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Disabled"/>
+                                                        </VisualStateGroup>
+                                                        <VisualStateGroup x:Name="FocusStates">
+                                                            <VisualState x:Name="Focused"/>
+                                                            <VisualState x:Name="Unfocused"/>
+                                                            <VisualState x:Name="PointerFocused"/>
+                                                        </VisualStateGroup>
+                                                    </VisualStateManager.VisualStateGroups>
+                                                    <Grid x:Name="SearchButtonBackground" Background="Goldenrod">
+                                                        <TextBlock x:Name="SearchGlyph" AutomationProperties.AccessibilityView="Raw" Foreground="{TemplateBinding Foreground}" FontStyle="Normal" FontFamily="{ThemeResource SymbolThemeFontFamily}" HorizontalAlignment="Center" Text="&#xE094;" VerticalAlignment="Center"/>
+                                                    </Grid>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                                <Style x:Key="SearchTextBoxStyle" TargetType="TextBox">
+                                    <Setter Property="MinWidth" Value="{ThemeResource TextControlThemeMinWidth}"/>
+                                    <Setter Property="MinHeight" Value="{ThemeResource TextControlThemeMinHeight}"/>
+                                    <Setter Property="Foreground" Value="{ThemeResource TextBoxForegroundThemeBrush}"/>
+                                    <Setter Property="Background" Value="{ThemeResource TextBoxBackgroundThemeBrush}"/>
+                                    <Setter Property="BorderBrush" Value="{ThemeResource TextBoxBorderThemeBrush}"/>
+                                    <Setter Property="SelectionHighlightColor" Value="Transparent"/>
+                                    <Setter Property="BorderThickness" Value="{ThemeResource TextControlBorderThemeThickness}"/>
+                                    <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+                                    <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+                                    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden"/>
+                                    <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden"/>
+                                    <Setter Property="ScrollViewer.IsDeferredScrollingEnabled" Value="False"/>
+                                    <Setter Property="Padding" Value="{ThemeResource TextControlThemePadding}"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="TextBox">
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto"/>
+                                                        <RowDefinition Height="*"/>
+                                                    </Grid.RowDefinitions>
+                                                    <VisualStateManager.VisualStateGroups>
+                                                        <VisualStateGroup x:Name="CommonStates">
+                                                            <VisualState x:Name="Disabled">
+                                                                <Storyboard>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="BackgroundElement">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextBoxDisabledBackgroundThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="BorderElement">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextBoxDisabledBorderThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextBoxDisabledForegroundThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextBoxDisabledForegroundThemeBrush}"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Normal">
+                                                                <Storyboard>
+                                                                    <DoubleAnimation Duration="0" To="{ThemeResource TextControlBackgroundThemeOpacity}" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="BackgroundElement"/>
+                                                                    <DoubleAnimation Duration="0" To="{ThemeResource TextControlBorderThemeOpacity}" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="BorderElement"/>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="PointerOver">
+                                                                <Storyboard>
+                                                                    <DoubleAnimation Duration="0" To="{ThemeResource TextControlPointerOverBackgroundThemeOpacity}" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="BackgroundElement"/>
+                                                                    <DoubleAnimation Duration="0" To="{ThemeResource TextControlPointerOverBorderThemeOpacity}" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="BorderElement"/>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Focused"/>
+                                                        </VisualStateGroup>
+                                                        <VisualStateGroup x:Name="ButtonStates"/>
+                                                    </VisualStateManager.VisualStateGroups>
+                                                    <Border x:Name="BackgroundElement" Background="{TemplateBinding Background}" Margin="{TemplateBinding BorderThickness}" Grid.Row="1" Grid.RowSpan="1"/>
+                                                    <Border x:Name="BorderElement" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Grid.Row="1" Grid.RowSpan="1"/>
+                                                    <ContentPresenter x:Name="HeaderContentPresenter" ContentTemplate="{TemplateBinding HeaderTemplate}" Content="{TemplateBinding Header}" Foreground="{ThemeResource TextBoxForegroundHeaderThemeBrush}" FontWeight="Semilight" Margin="0,4,0,4" Grid.Row="0"/>
+                                                    <ScrollViewer x:Name="ContentElement" AutomationProperties.AccessibilityView="Raw" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" IsTabStop="False" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" ZoomMode="Disabled"/>
+                                                    <ContentControl x:Name="PlaceholderTextContentPresenter" Grid.ColumnSpan="2" Content="{TemplateBinding PlaceholderText}" Foreground="{ThemeResource TextBoxPlaceholderTextThemeBrush}" IsHitTestVisible="False" IsTabStop="False" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1"/>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Grid.Resources>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchBoxGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding Background, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchBoxBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding BorderBrush, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding Foreground, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchBoxGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxPointerOverBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchBoxBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxPointerOverBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxPointerOverTextThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchBoxGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxDisabledBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchBoxBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxDisabledBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxDisabledTextThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchTextBox">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchBoxGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchBoxBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxButtonForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Goldenrod"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchSuggestionsPopupBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="FocusedDropDown">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="SearchBoxGrid">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Goldenrod"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchBoxBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SearchButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedTextThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="SearchSuggestionsPopupBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxFocusedBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="SearchBoxBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox x:Name="SearchTextBox" BorderThickness="0" Background="Transparent" Foreground="{TemplateBinding Foreground}" FontWeight="{TemplateBinding FontWeight}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" InputScope="Search" MinHeight="{ThemeResource SearchBoxTextBoxThemeMinHeight}" MaxLength="2048" Padding="{TemplateBinding Padding}" PlaceholderText="{TemplateBinding PlaceholderText}" Style="{StaticResource SearchTextBoxStyle}" TextWrapping="NoWrap" VerticalAlignment="Stretch"/>
+                                    <Button x:Name="SearchButton" AutomationProperties.AccessibilityView="Raw" Background="Transparent" Grid.Column="1" FontWeight="{ThemeResource SearchBoxButtonThemeFontWeight}" Style="{StaticResource SearchButtonStyle}"/>
+                                </Grid>
+                            </Border>
+                            <Popup x:Name="SearchSuggestionsPopup" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                <Border x:Name="SearchSuggestionsPopupBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" MinWidth="{ThemeResource SearchBoxSuggestionPopupThemeMinWidth}">
+                                    <Border.Resources>
+                                        <Style x:Key="SearchSuggestionListViewItemStyle" TargetType="ListViewItem">
+                                            <Setter Property="Background" Value="Transparent"/>
+                                            <Setter Property="TabNavigation" Value="Local"/>
+                                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                            <Setter Property="Margin" Value="0"/>
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="ListViewItem">
+                                                        <Border x:Name="OuterContainer">
+                                                            <VisualStateManager.VisualStateGroups>
+                                                                <VisualStateGroup x:Name="CommonStates">
+                                                                    <VisualState x:Name="Normal"/>
+                                                                    <VisualState x:Name="PointerOver">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="PointerOverBorder"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="Pressed">
+                                                                        <Storyboard>
+                                                                            <PointerDownThemeAnimation TargetName="ContentContainer"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="PointerOverPressed">
+                                                                        <Storyboard>
+                                                                            <PointerDownThemeAnimation TargetName="ContentContainer"/>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="PointerOverBorder"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="Disabled">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="{ThemeResource ListViewItemDisabledThemeOpacity}" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="ListViewItemContentPresenter"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                </VisualStateGroup>
+                                                                <VisualStateGroup x:Name="FocusStates">
+                                                                    <VisualState x:Name="Focused">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisual"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="Unfocused"/>
+                                                                    <VisualState x:Name="PointerFocused"/>
+                                                                </VisualStateGroup>
+                                                                <VisualStateGroup x:Name="SelectionStates">
+                                                                    <VisualState x:Name="Unselecting"/>
+                                                                    <VisualState x:Name="Unselected"/>
+                                                                    <VisualState x:Name="UnselectedPointerOver">
+                                                                        <Storyboard>
+                                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ListViewItemContentPresenter">
+                                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxButtonForegroundThemeBrush}"/>
+                                                                            </ObjectAnimationUsingKeyFrames>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="UnselectedSwiping"/>
+                                                                    <VisualState x:Name="Selecting"/>
+                                                                    <VisualState x:Name="Selected">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="SelectionBackground"/>
+                                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ListViewItemContentPresenter">
+                                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                            </ObjectAnimationUsingKeyFrames>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="SelectedSwiping"/>
+                                                                    <VisualState x:Name="SelectedUnfocused">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="SelectionBackground"/>
+                                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ListViewItemContentPresenter">
+                                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SearchBoxButtonForegroundThemeBrush}"/>
+                                                                            </ObjectAnimationUsingKeyFrames>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                </VisualStateGroup>
+                                                            </VisualStateManager.VisualStateGroups>
+                                                            <Grid x:Name="ContentContainer">
+                                                                <Rectangle x:Name="PointerOverBorder" Fill="Goldenrod" IsHitTestVisible="False" Opacity="0"/>
+                                                                <Rectangle x:Name="FocusVisual" IsHitTestVisible="False" Opacity="0" Stroke="{ThemeResource ListViewItemFocusBorderThemeBrush}" StrokeThickness="2"/>
+                                                                <Rectangle x:Name="SelectionBackground" Fill="Goldenrod" Opacity="0"/>
+                                                                <ContentPresenter x:Name="ListViewItemContentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" FontWeight="{Binding FontWeight, ElementName=SearchTextBox}" FontSize="{Binding FontSize, ElementName=SearchTextBox}" FontFamily="{Binding FontFamily, ElementName=SearchTextBox}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                            </Grid>
+                                                        </Border>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Border.Resources>
+                                    <Grid MaxHeight="{ThemeResource SearchBoxSuggestionPopupThemeMaxHeight}">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Border x:Name="IMECandidateListContainer"/>
+                                        <Border x:Name="IMECandidateListSeparator" BorderBrush="{ThemeResource SearchBoxIMECandidateListSeparatorThemeBrush}" BorderThickness="{ThemeResource SearchBoxIMECandidateListSeparatorThemeThickness}" Grid.Row="1" Visibility="Collapsed"/>
+                                        <ListView x:Name="SearchSuggestionsList" Background="Transparent" IsTabStop="False" IsItemClickEnabled="true" Grid.Row="2">
+                                            <ListView.Resources>
+                                                <DataTemplate x:Name="HitHighlightedTextBlock">
+                                                    <RichTextBlock x:Name="TextBlock" AutomationProperties.AccessibilityView="Raw" SelectionHighlightColor="{ThemeResource SearchBoxHitHighlightForegroundThemeBrush}" TextWrapping="Wrap" TextTrimming="WordEllipsis">
+                                                        <RichTextBlock.Resources>
+                                                            <DataTemplate x:Name="SelectedHitHighlightedRun">
+                                                                <Run Foreground="{ThemeResource SearchBoxHitHighlightSelectedForegroundThemeBrush}"/>
+                                                            </DataTemplate>
+                                                        </RichTextBlock.Resources>
+                                                    </RichTextBlock>
+                                                </DataTemplate>
+                                            </ListView.Resources>
+                                            <ListView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <ContentControl x:Name="QuerySuggestionTemplate" Typography.DiscretionaryLigatures="False" Margin="{ThemeResource SearchBoxQuerySuggestionThemeMargin}" Visibility="Collapsed" VerticalAlignment="Center"/>
+                                                        <Grid x:Name="ResultSuggestionTemplate" Typography.DiscretionaryLigatures="False" Margin="{ThemeResource SearchBoxResultSuggestionThemeMargin}" Visibility="Collapsed">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition/>
+                                                                <RowDefinition/>
+                                                            </Grid.RowDefinitions>
+                                                            <Image x:Name="ResultSuggestionImage" Height="{ThemeResource SearchBoxResultSuggestionImageThemeHeight}" Margin="{ThemeResource SearchBoxSuggestionSubcomponentThemeMargin}" Grid.RowSpan="2" Width="{ThemeResource SearchBoxResultSuggestionImageThemeWidth}"/>
+                                                            <ContentControl x:Name="ResultSuggestionText" Grid.Column="1" VerticalAlignment="Center"/>
+                                                            <ContentControl x:Name="ResultSuggestionDetailText" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"/>
+                                                        </Grid>
+                                                        <Grid x:Name="SeparatorSuggestionTemplate" Typography.DiscretionaryLigatures="False" Margin="{ThemeResource SearchBoxSeparatorSuggestionThemeMargin}" Visibility="Collapsed">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock x:Name="SeparatorSuggestionText" Margin="{ThemeResource SearchBoxSuggestionSubcomponentThemeMargin}" TextTrimming="WordEllipsis" VerticalAlignment="Center"/>
+                                                            <Border BorderBrush="{ThemeResource SearchBoxSeparatorSuggestionForegroundThemeBrush}" BorderThickness="0,1,0,0" Grid.Column="1" VerticalAlignment="Center"/>
+                                                        </Grid>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ListView.ItemTemplate>
+                                            <ListView.ItemContainerTransitions>
+                                                <TransitionCollection/>
+                                            </ListView.ItemContainerTransitions>
+                                            <ListView.ItemContainerStyle>
+                                                <StaticResource ResourceKey="SearchSuggestionListViewItemStyle"/>
+                                            </ListView.ItemContainerStyle>
+                                        </ListView>
+                                    </Grid>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid Background="White">
+        <Grid Background="White" Height="1060" Width="1950">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="800"/>
+            </Grid.RowDefinitions>
+            <!--====================================================HEADER====================================================-->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="460"/>
+                    <ColumnDefinition Width="1500"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Width="500" Margin="0,0,0,0">
+                    <Image x:Name="image" Source="Assets/SplashScreenRing.png" Margin="167,10,192,37" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Image Source="Assets/SplashScreenSlide.png" Width="500" Height="180" Margin="0,0,0,0"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <StackPanel Orientation="Vertical" Margin="30,0,0,0">
+                        <StackPanel x:Name="NavBar" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100">
+                            <StackPanel x:ConnectionId='16'  x:Name="home" Orientation="Vertical" Width="180" Margin="0,0,0,0"                                           >
+                                <TextBlock x:ConnectionId='22' x:Name="HomeBtn" Text="HOME" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,50,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Goldenrod" RenderTransformOrigin="0.5,0.5"                                          >
+                                    <TextBlock.RenderTransform>
+                                        <CompositeTransform/>
+                                    </TextBlock.RenderTransform>
+                                </TextBlock>
+                            </StackPanel>
+                            <StackPanel x:ConnectionId='17' x:Name="wonders" Orientation="Vertical" Width="240" Margin="10,0,0,0"                                           >
+                                <TextBlock x:ConnectionId='21' x:Name="WondersBtn" Text="WONDERS" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,50,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Goldenrod"                                          >
+                                    <TextBlock.RenderTransform>
+                                        <CompositeTransform/>
+                                    </TextBlock.RenderTransform>
+                                </TextBlock>
+                            </StackPanel>
+                            <StackPanel x:ConnectionId='18' x:Name="maps" Orientation="Vertical" Width="180" Margin="10,0,0,0"                                           >
+                                <TextBlock x:ConnectionId='20' x:Name="MapsBtn" Text="MAPS" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,50,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Goldenrod"                                          >
+                                    <TextBlock.RenderTransform>
+                                        <CompositeTransform/>
+                                    </TextBlock.RenderTransform>
+                                </TextBlock>
+                            </StackPanel>
+                            <StackPanel>
+                                <SearchBox x:ConnectionId='19' FontSize="25"                                                                                                 Width="700" Height="50" Margin="0,35,0,15" Style="{StaticResource SearchBoxStyle1}"></SearchBox>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel x:Name="LowerPanel" Orientation="Horizontal">
+                            <Image x:ConnectionId='15' x:Name="BackBtn" Source="Assets/back1.png" Height="50" Margin="0,15,0,0"                                                                                                                      ></Image>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <!---->
+            <!--====================================================BODY======================================================-->
+            <Grid Grid.Row="1">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Assets/Bg/CitiesBg.jpg"/>
+                </Grid.Background>
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" VerticalScrollMode="Disabled" HorizontalScrollMode="Enabled">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2000" />
+                            <ColumnDefinition Width="2000" />
+                            <ColumnDefinition Width="2000" />
+                        </Grid.ColumnDefinitions>
+                        <!--=============================================== 1st Page ===============================================-->
+                        <Grid Grid.Column="0" Background="White" Height="1000">
+                            <MediaElement x:Name="mymedia" IsMuted="True" AreTransportControlsEnabled="False" Stretch="Fill" Width="2000" Height="1000" AutoPlay="True" Source="Assets/Video/Wonders.mp4" HorizontalAlignment="Left"></MediaElement>
+                        </Grid>
+                        <!--=============================================== 2nd Page ===============================================-->
+                        <Grid Grid.Column="1">
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel x:Name="Quote" Orientation="Vertical" Background="MidnightBlue">
+                                    <TextBlock Width="1000" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="55" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="White" 
+                                               Text="We Don't See Things as They Are, We See Them as We Are."></TextBlock>
+                                </StackPanel>
+                                <StackPanel x:Name="Main2" Orientation="Vertical">
+                                    <StackPanel>
+                                        <StackPanel Width="900">
+                                            <StackPanel.Background>
+                                                <SolidColorBrush Color="Gray" Opacity="0.7"></SolidColorBrush>
+                                            </StackPanel.Background>
+                                            <TextBlock Width="1000" Height="60" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="55" TextWrapping="Wrap" Margin="0,10,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Black" 
+                                               Text="New Seven Wonders Cities of the World"></TextBlock>
+                                        </StackPanel>
+                                        
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            
+
+                                            <StackPanel Width="600" Height="478"  HorizontalAlignment="Left">
+                                                <StackPanel.Background>
+                                                    <ImageBrush ImageSource="Assets/Cities/Banner.png" Stretch="Fill"></ImageBrush>
+                                                </StackPanel.Background>
+                                                <TextBlock Width="500" Height="310" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" TextWrapping="Wrap" Margin="-5,80,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Black" 
+                                               Text="New7Wonders Cities is the third in a &#x0a; series of Internet-based  polls operated by &#x0a; the New7Wonders Foundation which &#x0a;is started by businessman Bernard &#x0a; Weber based in San Francisco,&#x0a;United States. Weber's latest &#x0a;campaign to find the best cities in &#x0a;the world aimed  to showcase," RenderTransformOrigin="0.495,0.494">
+                                                    <TextBlock.RenderTransform>
+                                                        <CompositeTransform Rotation="0"/>
+                                                    </TextBlock.RenderTransform></TextBlock>
+                                            </StackPanel>
+
+                                            <StackPanel Width="600" Height="478"  HorizontalAlignment="Left">
+                                                <StackPanel.Background>
+                                                    <ImageBrush ImageSource="Assets/Cities/Banner3.png" Stretch="Fill"></ImageBrush>
+                                                </StackPanel.Background>
+                                                <TextBlock Width="500" Height="350" TextAlignment="Justify" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" TextWrapping="Wrap" Margin="0,60,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Black" 
+                                               Text="&quot;cities that best represent the achievements and aspirations of our global urban civilization&quot; The global competition began with more than 1200 nominees from 220 countries. That list was reduced to 77, since there was a limit of one city per country. Then the 77 remaining cities were narrowed down by a panel of experts headed by Federico Mayor Zaragoza, former director-general of UNESCO, to 28 suggestions." RenderTransformOrigin="0.495,0.494">
+                                                    <TextBlock.RenderTransform>
+                                                        <CompositeTransform Rotation="0"/>
+                                                    </TextBlock.RenderTransform></TextBlock>
+                                            </StackPanel>
+
+                                            <StackPanel Width="600" Height="478"  HorizontalAlignment="Left" Orientation="Vertical">
+                                                <StackPanel.Background>
+                                                    <ImageBrush ImageSource="Assets/Cities/Banner2.png" Stretch="Fill"></ImageBrush>
+                                                </StackPanel.Background>
+                                                <TextBlock Width="500" Height="310" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" TextWrapping="Wrap" Margin="0,85,0,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Black" 
+                                                    Text="The winning seven cities were &#x0a; chosen by voters from around the&#x0a; world. Announced in 2011, it &#x0a; culminated in 2014 with the choice &#x0a;of 7 cities, being the winners the :&#x0a;following Beirut, Doha, Durban,:&#x0a; Havana, Kuala Lumpur, La Paz." RenderTransformOrigin="0.495,0.494">
+                                                    <TextBlock.RenderTransform>
+                                                        <CompositeTransform Rotation="0"/>
+                                                    </TextBlock.RenderTransform></TextBlock>
+
+                                                <StackPanel Height="75" Width="200" HorizontalAlignment="Center" Margin="0,-50,0,0">
+                                                    <StackPanel.Background>
+                                                        <ImageBrush ImageSource="Assets/Cities/Arrow.png" Stretch="Fill"></ImageBrush>
+                                                    </StackPanel.Background>
+                                                    <TextBlock Text="Finalist" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" TextWrapping="Wrap" Margin="0,30,50,0" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="Black" ></TextBlock>
+                                                </StackPanel>
+                                            </StackPanel>
+
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                        <!--=============================================== 3rd Page ===============================================-->
+                        <Grid Grid.Column="2" >
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel x:Name="Quote2" Orientation="Vertical" Background="MidnightBlue">
+                                    <TextBlock Width="1000" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="55" TextWrapping="Wrap" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" Foreground="White" Margin="0,10,0,0" 
+                                               Text="Yet mystery and imagination arise from the same source. This source is called darkness"></TextBlock>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Margin="0,5,0,0">
+                                    <StackPanel Orientation="Horizontal" Height="350" HorizontalAlignment="Center">
+
+                                        <!--1st FlipView-->
+                                        <FlipView x:ConnectionId='7'                                               Width="350" Height="350" x:Name="flipslide1" HorizontalAlignment="Left" Margin="0,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/1.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/1(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Beirut" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Beirut (Arabic: بيروت‎‎ Bayrūt About this sound pronunciation, French: Beyrouth) is the capital and largest city of Lebanon."></TextBlock>
+                                                        <Button x:ConnectionId='14' x:Name="BeirutRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+                                        <!--2nd FlipView-->
+                                        <FlipView x:ConnectionId='8'                                               Width="350" Height="350" x:Name="flipslide2" HorizontalAlignment="Left" Margin="100,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/2.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/2(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="La Paz" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="La Paz(English: Our Lady of Peace) is the seat of government of the Plurinational State of Bolivia."></TextBlock>
+                                                        <Button x:ConnectionId='13' x:Name="LaPazRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+                                        <!--3rd FlipView-->
+                                        <FlipView x:ConnectionId='9'                                               Width="350" Height="350" x:Name="flipslide3" HorizontalAlignment="Left" Margin="100,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/3.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/3(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Havana" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Havana is the capital city, largest city, province, major port, and leading commercial center of Cuba."></TextBlock>
+                                                        <Button x:ConnectionId='12' x:Name="HavanaRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+                                        <!--4th FlipView-->
+                                        <FlipView x:ConnectionId='10'                                               Width="350" Height="350" x:Name="flipslide4" HorizontalAlignment="Left" Margin="100,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/4.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/4(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Kuala Lumpur" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Kuala Lumpur officially the Federal Territory of Kuala Lumpur, or commonly KL, is the national capital of Malaysia as well as its largest city."></TextBlock>
+                                                        <Button x:ConnectionId='11' x:Name="KualaLumpurRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Height="350" HorizontalAlignment="Center">
+
+                                        <!--5th FlipView-->
+                                        <FlipView x:ConnectionId='1'                                               Width="350" Height="350" x:Name="flipslide5" HorizontalAlignment="Left" Margin="0,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/5.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/5(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Durban" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Durban is the largest city in the South African province of KwaZulu-Natal."></TextBlock>
+                                                        <Button x:ConnectionId='6' x:Name="DurbanRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+                                        <!--6th FlipView-->
+                                        <FlipView x:ConnectionId='2'                                               Width="350" Height="350" x:Name="flipslide6" HorizontalAlignment="Left" Margin="100,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/6.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/6(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Doha" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Doha is the capital city and most populous city of the State of Qatar."></TextBlock>
+                                                        <Button x:ConnectionId='5' x:Name="DohaRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+                                        <!--7th FlipView-->
+                                        <FlipView x:ConnectionId='3'                                               Width="350" Height="350" x:Name="flipslide7" HorizontalAlignment="Left" Margin="100,0,0,0">
+                                            <FlipView.Items>
+                                                <FlipViewItem>
+                                                    <Image Source="Assets/Cities/7.jpg" Stretch="Fill"></Image>
+                                                </FlipViewItem>
+                                                <FlipViewItem>
+                                                    <StackPanel Orientation="Vertical">
+                                                        <StackPanel.Background>
+                                                            <ImageBrush ImageSource="Assets/Cities/7(2).jpg" Stretch="Fill"/>
+                                                        </StackPanel.Background>
+                                                        <TextBlock TextAlignment="Center" Text="Vigan" FontFamily="Assets/Font/JANCIENI.TTF#JSL Ancient" FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,25,0,0"></TextBlock>
+                                                        <TextBlock TextAlignment="Center" FontFamily="Assets/Font/JANCIENT.TTF#JSL Ancient" FontSize="35" TextWrapping="Wrap" Margin="10,10,10,0" 
+                                                            Text="Vigan officially the City of Vigan, is a 4th class component city and capital of the province of Ilocos Sur, Philippines."></TextBlock>
+                                                        <Button x:ConnectionId='4' x:Name="ViganRead" HorizontalAlignment="Center" Content="Read More"                     ></Button>
+                                                    </StackPanel>
+                                                </FlipViewItem>
+                                            </FlipView.Items>
+                                        </FlipView>
+
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
+

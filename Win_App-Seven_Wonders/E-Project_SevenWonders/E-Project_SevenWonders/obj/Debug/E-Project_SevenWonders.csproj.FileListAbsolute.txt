@@ -1,0 +1,504 @@
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\App.xbf
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MainPage.xbf
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.xr.xml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.exe
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.pdb
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\resources.pri
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\AppxManifest.xml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.build.appxrecipe
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.g.i.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.g.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.g.i.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.g.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.xaml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.xaml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.xbf
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.xbf
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.exe
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.pdb
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\priconfig.xml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\priconfig.xml.intermediate
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\layout.resfiles
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\layout.resfiles.intermediate
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\resources.resfiles
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\resources.resfiles.intermediate
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\pri.resfiles
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\pri.resfiles.intermediate
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\qualifiers.txt
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ProjectArchitectures.txt
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Home.xbf
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.g.i.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.g.cs
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.xaml
+C:\Users\Zohaib\documents\visual studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NaturalWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NewWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\CitiesWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WaterWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NatureWonder.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Aurora.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GreatBarrierReef.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GrandCanyon.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Harbor.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MountEve.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\VictoriaFall.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Paricutin.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\ChichenItza.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Colosseum.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MachuPicchu.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Petra.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Redeemer.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\TajMahal.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WallChina.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\AmazonRainforest.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\HaLong.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\IguazuFalls.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\JejuIsland.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Komodo.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NationalPark.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\TableMountain.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Beirut.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Doha.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Durban.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Havana.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\KualaLumpur.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\LaPaz.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Vigan.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\BelizeBarrierReef.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Palau.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GalápagosIslands.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GreatBarrierReef2.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\HydrothermalVent.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\LakeBaikal.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\RedSea.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Bing.Maps\Themes\Generic.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps\Themes\Generic.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps.winmd
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps.xml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.csproj.GenerateResource.Cache
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WonderMap.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Wonders.xbf
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.g.i.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.g.cs
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.xaml
+C:\Users\Zohaib\Documents\Visual Studio 2013\Projects\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\App.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\AmazonRainforest.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Aurora.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Beirut.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\BelizeBarrierReef.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\ChichenItza.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\CitiesWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Colosseum.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Doha.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Durban.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GalápagosIslands.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GrandCanyon.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GreatBarrierReef.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\GreatBarrierReef2.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\HaLong.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Harbor.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Havana.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Home.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\HydrothermalVent.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\IguazuFalls.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\JejuIsland.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Komodo.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\KualaLumpur.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\LakeBaikal.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\LaPaz.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MachuPicchu.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MainPage.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\MountEve.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NationalPark.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NaturalWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NatureWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\NewWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Palau.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Paricutin.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Petra.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Redeemer.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\RedSea.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\TableMountain.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\TajMahal.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\VictoriaFall.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Vigan.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WallChina.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WaterWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\WonderMap.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Wonders.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps\Themes\Generic.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.xr.xml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.exe
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.pdb
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\resources.pri
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\AppxManifest.xml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\E-Project_SevenWonders.build.appxrecipe
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps.winmd
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\bin\Debug\Bing.Maps.xml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.g.i.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.xaml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\App.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\AmazonRainforest.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Aurora.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Beirut.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\BelizeBarrierReef.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ChichenItza.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\CitiesWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Colosseum.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Doha.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Durban.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GalápagosIslands.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GrandCanyon.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\GreatBarrierReef2.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HaLong.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Harbor.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Havana.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Home.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\HydrothermalVent.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\IguazuFalls.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\JejuIsland.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Komodo.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\KualaLumpur.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LakeBaikal.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\LaPaz.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MachuPicchu.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MainPage.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MountEve.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NationalPark.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NaturalWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NatureWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\NewWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Palau.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Paricutin.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Petra.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Redeemer.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\RedSea.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TableMountain.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\TajMahal.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\VictoriaFall.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Vigan.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WallChina.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WaterWonder.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\WonderMap.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Wonders.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\Bing.Maps\Themes\Generic.xbf
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.exe
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.pdb
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\E-Project_SevenWonders.csproj.GenerateResource.Cache
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\priconfig.xml
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\priconfig.xml.intermediate
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\layout.resfiles
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\layout.resfiles.intermediate
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\resources.resfiles
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\resources.resfiles.intermediate
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\pri.resfiles
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\pri.resfiles.intermediate
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\qualifiers.txt
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Zohaib\Desktop\Win_App-Seven_Wonders\E-Project_SevenWonders\E-Project_SevenWonders\obj\Debug\ProjectArchitectures.txt
